@@ -11,10 +11,12 @@ public class TableOf {
     }
     static void MultipleOf(int n){
         System.out.println("multiple of "+n+" upto 10 are :");
-        for (int i = 1; i < 10; i++) {
-            if(i%n==0){
-                System.out.println(i);
-            }
+        for (int i = 1; i <=10; i++) {
+//            if(i%n==0){
+//                System.out.println(i);
+//            }
+            int c=n*i;
+            System.out.println(c);
 
         }
     }
