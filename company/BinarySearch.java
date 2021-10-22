@@ -9,7 +9,7 @@ public class BinarySearch {
             System.out.println("Target number present at the location :" + "[" + ans + "]");
         }
         else
-            System.out.println("Target number not present ");
+            System.out.println("Target number not ");
     }
     static int binarysearch(int[] arr,int target){
         int start=0;
