@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Discount {
     public static void main(String[] args) {
         Scanner in =new Scanner(System.in);
-        System.out.println("Enter the price of the item and discount :");
+        System.out.println("Enter the price of the item and dis :");
         double price= in.nextDouble();
      double discount= in.nextDouble();
         System.out.println("price after discount is :"+discount(price,discount));
