@@ -3,7 +3,7 @@ package com.company;
 public class BinarySearch {
     public static void main(String[] args) {
         int[] arr = {0,1,2,3,4,5,6};
-        int target=23;
+        int target=2;
         int ans=binarysearch(arr,target);
         if(ans>=0) {
             System.out.println("Target number present at the location :" + "[" + ans + "]");
